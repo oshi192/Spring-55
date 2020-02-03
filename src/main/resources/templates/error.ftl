@@ -10,33 +10,18 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-
 </head>
 <body>
-<h1>ERROR</h1>
-
-
-<table>
-    <tr>
-        <td>
-            <a href="/parse-log/element">
-                <button  type="button" class="btn btn-outline-dark" >rows</button>
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <a href="/phone-book">
+                <h2>Home Page</h2>
             </a>
-        </td>
-        <td>infos</td>
-        <td>
-            <a href="/parse-log/element?type=warning">
-                <button  type="button" class="btn btn-outline-warning" >warnings</button>
-            </a>
-        </td>
-        <td>
-            <a href="/parse-log/element?type=error">
-                <button type="button"  class="btn btn-outline-danger" href="/parse-log/error" >errors</button>
-            </a>
-        </td>
-        <td>other</td>
-    </tr>
-    </thead>
-
+        </div>
+        <h1>${code}</h1>
+        <h5>${message}</h5>
+    </div>
+</div>
 </body>
 </html>
